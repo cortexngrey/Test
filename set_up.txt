@@ -13,3 +13,9 @@ Install Flask using pip (Python's package manager):
 bash_cmd
 sudo apt install python3-pip
 pip3 install Flask
+
+
+Use Nginx for Production
+If you plan to use this server in production, you might want to use Nginx to handle the HTTP requests and proxy them to Flask. This setup provides better performance and reliability. You can also use gunicorn as the Python WSGI server for Flask when scaling up.
+
+Let me know if you need more details on setting up a production environment!
