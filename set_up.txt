@@ -1,0 +1,15 @@
+Install Python:
+
+Make sure Python is installed by running:
+bash_cmd
+python3 --version
+If Python is not installed, you can install it using:
+bash_cmd
+sudo apt update
+sudo apt install python3
+Install Flask:
+
+Install Flask using pip (Python's package manager):
+bash_cmd
+sudo apt install python3-pip
+pip3 install Flask
